@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nhocj\\source\\repos\\CTDL\u0026TG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC51A657-DACE-4293-B142-0A9715DC4922}|CTDL\u0026TG\\CTDL\u0026TG.vcxproj|C:\\Users\\nhocj\\source\\repos\\CTDL\u0026TG\\CTDL\u0026TG\\HashTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC51A657-DACE-4293-B142-0A9715DC4922}|CTDL\u0026TG\\CTDL\u0026TG.vcxproj|solutionrelative:CTDL\u0026TG\\HashTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HashTable.cpp",
+              "DocumentMoniker": "C:\\Users\\nhocj\\source\\repos\\CTDL\u0026TG\\CTDL\u0026TG\\HashTable.cpp",
+              "RelativeDocumentMoniker": "CTDL\u0026TG\\HashTable.cpp",
+              "ToolTip": "C:\\Users\\nhocj\\source\\repos\\CTDL\u0026TG\\CTDL\u0026TG\\HashTable.cpp*",
+              "RelativeToolTip": "CTDL\u0026TG\\HashTable.cpp*",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAWwGwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-26T08:57:10.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
