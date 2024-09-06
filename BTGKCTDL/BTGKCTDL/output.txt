@@ -1,0 +1,24 @@
+Ho va ten: Nguyen Van B
+MSSV: 235101059
+Lop: DH23CS02
+SDT: 123456788
+Diem trung binh: 8.2
+
+Ho va ten: Nguyen Van A
+MSSV: 235101058
+Lop: DH23CS01
+SDT: 123456789
+Diem trung binh: 6.2
+
+Ho va ten: Nguyen Van C
+MSSV: 235101060
+Lop: DH23CS03
+SDT: 123456787
+Diem trung binh: 6
+
+Ho va ten: Nguyen Van D
+MSSV: 235101061
+Lop: DH23CS01
+SDT: 123456777
+Diem trung binh: 5.1
+

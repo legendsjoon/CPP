@@ -1,0 +1,4 @@
+﻿  BT3.cpp
+C:\Users\nhocj\Documents\GitHub\CPP\BTGKCTDL\BTGKCTDL\BT3.cpp(205,1): warning C4715: 'findStartPlace': not all control paths return a value
+C:\Users\nhocj\Documents\GitHub\CPP\BTGKCTDL\BTGKCTDL\BT3.cpp(221,1): warning C4715: 'findStartPlaceWithRotate': not all control paths return a value
+  BTGKCTDL.vcxproj -> C:\Users\nhocj\Documents\GitHub\CPP\BTGKCTDL\x64\Debug\BTGKCTDL.exe

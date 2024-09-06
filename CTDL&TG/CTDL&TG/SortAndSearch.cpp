@@ -77,7 +77,7 @@ void merge(int arr[], int l, int m, int r) {
 		L[i] = a[l + i];
 	}
 	for (int j = 0; j < n2; j++) {
-		R[j] = a[m +1 + j];
+		R[j] = a[m + 1 + j];
 	}
 	int i = 0, j = 0, k = l;
 	//Sap xep 2 mang vao mang chinh bat dau tu l
