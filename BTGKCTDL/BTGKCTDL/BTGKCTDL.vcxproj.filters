@@ -20,7 +20,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BT3.cpp">
+    <ClCompile Include="BT4_AVL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
