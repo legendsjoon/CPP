@@ -20,7 +20,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RPN.cpp">
+    <ClCompile Include="SortAndSearch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

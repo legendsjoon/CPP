@@ -30,7 +30,7 @@ int pop(Stack& s) {
 	}
 }
 
-void importList(int arr[], int &n) {
+void importList(int arr[], int& n) {
 	do {
 		cout << "Nhap so phan tu: ";
 		cin >> n;
@@ -49,7 +49,7 @@ void importList(int arr[], int &n) {
 void exportList(int arr[], int n) {
 	cout << "Gia tri trong danh sach dac:\n";
 	for (int i = 0; i < n; i++) {
-		cout << arr[i]<<" ";
+		cout << arr[i] << " ";
 	}
 	cout << endl;
 }
@@ -62,7 +62,7 @@ int find(int arr[], int n, int key) {
 	return -1;
 }
 
-void insertLast(int arr[], int &n, int x) {
+void insertLast(int arr[], int& n, int x) {
 	if (n == MAX)
 		cout << "Danh sach day!\n";
 	else {
@@ -70,8 +70,8 @@ void insertLast(int arr[], int &n, int x) {
 	}
 }
 
-void delByPos(int arr[], int &n, int pos) {
-	if(n==0)
+void delByPos(int arr[], int& n, int pos) {
+	if (n == 0)
 		cout << "Danh sach rong!\n";
 	else {
 		for (int i = pos; i < n - 1; i++) {
@@ -111,14 +111,15 @@ void selectionSort(int arr[], int n) {
 			if (arr[minpos] < arr[j])
 				minpos = j;
 		}
-		swap(arr[i], arr[minpos]);
+		if (minpos != i)
+			swap(arr[i], arr[minpos]);
 	}
 }
 
 void insertionSort(int arr[], int n) {
 	for (int i = 1; i < n; i++) {
 		int x = arr[i], j = i - 1;
-		while (j>=0 && arr[j] < x) {
+		while (j >= 0 && arr[j] < x) {
 			arr[j + 1] = arr[j];
 			j--;
 		}
@@ -145,24 +146,24 @@ void interchangeSort(int arr[], int n) {
 }
 
 void quickSort(int arr[], int left, int right) {
-		int pivot = left + (right - left) / 2;
-		int l = left, r = right;
-		while (l <= r) {
-			while (arr[l] > arr[pivot])
-				l++;
-			while (arr[r] < arr[pivot])
-				r--;
-			if (l <= r) {
-				swap(arr[l++], arr[r--]);
-			}
+	int pivot = left + (right - left) / 2;
+	int l = left, r = right;
+	while (l <= r) {
+		while (arr[l] > arr[pivot])
+			l++;
+		while (arr[r] < arr[pivot])
+			r--;
+		if (l <= r) {
+			swap(arr[l++], arr[r--]);
 		}
-		if (r > left)
-			quickSort(arr, left, r);
-		if (l < right)
-			quickSort(arr, l, right);
+	}
+	if (r > left)
+		quickSort(arr, left, r);
+	if (l < right)
+		quickSort(arr, l, right);
 }
 
-void quickSortNoRecursion(int arr[],int left,int right) {
+void quickSortNoRecursion(int arr[], int left, int right) {
 	Stack s;
 	initStack(s);
 	push(s, left);
@@ -184,7 +185,7 @@ void quickSortNoRecursion(int arr[],int left,int right) {
 			push(s, lf);
 			push(s, r);
 		}
-		if (l < rt){
+		if (l < rt) {
 			push(s, l);
 			push(s, rt);
 		}
@@ -196,7 +197,7 @@ void merge(int arr[], int left, int mid, int right) {
 	for (int i = left; i <= mid; i++) {
 		N1[n1++] = arr[i];
 	}
-	for (int i = mid+1; i <= right; i++) {
+	for (int i = mid + 1; i <= right; i++) {
 		N2[n2++] = arr[i];
 	}
 	int x = 0, y = 0, z = left;
@@ -207,7 +208,7 @@ void merge(int arr[], int left, int mid, int right) {
 		else
 			arr[z++] = N2[y++];
 	}
-	while(x < n1)
+	while (x < n1)
 		arr[z++] = N1[x++];
 	while (y < n2)
 		arr[z++] = N2[y++];;
@@ -217,12 +218,12 @@ void mergeSort(int arr[], int left, int right) {
 	if (left < right) {
 		int mid = left + (right - left) / 2;
 		mergeSort(arr, left, mid);
-		mergeSort(arr, mid+1, right);
+		mergeSort(arr, mid + 1, right);
 		merge(arr, left, mid, right);
 	}
 }
 
-void heapify(int arr[],int n, int root) {
+void heapify(int arr[], int n, int root) {
 	int left = root * 2 + 1;
 	int right = root * 2 + 2;
 	int min = root;
@@ -240,7 +241,7 @@ void heapSort(int arr[], int n) {
 	for (int i = (n / 2) - 1; i >= 0; i--) {
 		heapify(arr, n, i);
 	}
-	for (int i = n-1; i > 0; i--) {
+	for (int i = n - 1; i > 0; i--) {
 		swap(arr[0], arr[i]);
 		heapify(arr, i, 0);
 	}
@@ -257,7 +258,7 @@ int main() {
 	//exportList(arr, n);
 	//addByPos(arr, n, 3, 10);
 	//exportList(arr, n);
-	heapSort(arr,n);
+	heapSort(arr, n);
 	exportList(arr, n);
 	system("pause");
 	return 0;

@@ -22,7 +22,7 @@
     <Text Include="dssv.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RPN.cpp" />
+    <ClCompile Include="SortAndSearch.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
