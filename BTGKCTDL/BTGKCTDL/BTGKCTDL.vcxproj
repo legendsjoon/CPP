@@ -22,7 +22,7 @@
     <Text Include="dssv.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BT4_AVL.cpp" />
+    <ClCompile Include="RPN.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

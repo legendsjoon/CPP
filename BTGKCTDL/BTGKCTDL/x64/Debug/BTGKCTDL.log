@@ -1,3 +1,3 @@
-﻿  BT4_AVL.cpp
-C:\Users\nhocj\Documents\GitHub\CPP\BTGKCTDL\BTGKCTDL\BT4_AVL.cpp(228,1): warning C4715: 'pop': not all control paths return a value
+﻿  RPN.cpp
+C:\Users\nhocj\Documents\GitHub\CPP\BTGKCTDL\BTGKCTDL\RPN.cpp(117,1): warning C4715: 'calculate': not all control paths return a value
   BTGKCTDL.vcxproj -> C:\Users\nhocj\Documents\GitHub\CPP\BTGKCTDL\x64\Debug\BTGKCTDL.exe

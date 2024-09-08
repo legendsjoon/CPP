@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7F719D0-D069-44C4-BD5D-EC8DB14E8F12}|BTGKCTDL\\BTGKCTDL.vcxproj|C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4_AVL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7F719D0-D069-44C4-BD5D-EC8DB14E8F12}|BTGKCTDL\\BTGKCTDL.vcxproj|solutionrelative:BTGKCTDL\\BT4_AVL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A7F719D0-D069-44C4-BD5D-EC8DB14E8F12}|BTGKCTDL\\BTGKCTDL.vcxproj|C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\RPN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7F719D0-D069-44C4-BD5D-EC8DB14E8F12}|BTGKCTDL\\BTGKCTDL.vcxproj|solutionrelative:BTGKCTDL\\RPN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BTGKCTDL\\BT4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A7F719D0-D069-44C4-BD5D-EC8DB14E8F12}|BTGKCTDL\\BTGKCTDL.vcxproj|C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4_AVL_Queue_Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7F719D0-D069-44C4-BD5D-EC8DB14E8F12}|BTGKCTDL\\BTGKCTDL.vcxproj|solutionrelative:BTGKCTDL\\BT4_AVL_Queue_Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,33 +21,33 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BT4.cpp",
-              "DocumentMoniker": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4.cpp",
-              "RelativeDocumentMoniker": "BTGKCTDL\\BT4.cpp",
-              "ToolTip": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4.cpp",
-              "RelativeToolTip": "BTGKCTDL\\BT4.cpp",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-07T16:31:45.814Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BT4_AVL.cpp",
-              "DocumentMoniker": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4_AVL.cpp",
-              "RelativeDocumentMoniker": "BTGKCTDL\\BT4_AVL.cpp",
-              "ToolTip": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4_AVL.cpp",
-              "RelativeToolTip": "BTGKCTDL\\BT4_AVL.cpp",
-              "ViewState": "AgIAAHoBAAAAAAAAAAAgwIgBAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BT4_AVL_Queue_Stack.cpp",
+              "DocumentMoniker": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4_AVL_Queue_Stack.cpp",
+              "RelativeDocumentMoniker": "BTGKCTDL\\BT4_AVL_Queue_Stack.cpp",
+              "ToolTip": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\BT4_AVL_Queue_Stack.cpp",
+              "RelativeToolTip": "BTGKCTDL\\BT4_AVL_Queue_Stack.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-07T15:52:42.772Z",
+              "WhenOpened": "2024-09-08T14:44:34.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RPN.cpp",
+              "DocumentMoniker": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\RPN.cpp",
+              "RelativeDocumentMoniker": "BTGKCTDL\\RPN.cpp",
+              "ToolTip": "C:\\Users\\nhocj\\Documents\\GitHub\\CPP\\BTGKCTDL\\BTGKCTDL\\RPN.cpp",
+              "RelativeToolTip": "BTGKCTDL\\RPN.cpp",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAKYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-08T12:03:37.161Z",
               "EditorCaption": ""
             }
           ]
